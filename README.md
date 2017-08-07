@@ -1,1 +1,1 @@
-# file-metadata
+This is a full stack JavaScript app that allows you to upload a file and access its metadata, and report back the size of the file.
