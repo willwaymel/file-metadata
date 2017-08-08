@@ -12,11 +12,6 @@ body {
 	text-align: center;
   height: 100%;
   margin: 0;
-
-  
-}
-.titles{
-  font-size:32px;
 }
 /* h1 {
   margin-bottom: 0;
@@ -40,20 +35,7 @@ credit to https://css-tricks.com/couple-takes-sticky-footer***/
 /*end footer styling*/
 
 .container {
-/*   height: 100%; */
-	
-/* 	margin-top: 40px; */
-/*   width: 100%; */
-/*   display: flex; */
-/*   flex-flow: column; */
- 
-/*   justify-content: center;
-  align-items: center; */
-/*   align-items: center;
-  align-content: center;
-/*   padding: 20px; */
-/*   justify-content: center; */ 
-/*   margin: 0 auto; */
+
 }
 
 footer {
@@ -63,35 +45,7 @@ footer {
   justify-content: center;
 }
 
-ol {
-	list-style-position: inside;
-  text-align: left;
-  align-self:center;
-  padding-right: 40px;
-  
-  
-}
-li {
-  padding-bottom: 12px;
-}
-.examplebox {
-  align-self:center;
-  margin: auto 40px;
-}
-.examples {
-  text-align: left;
-  max-width: 720px;
-}
-.nospace {
-  margin-top: 0;
-}
-ul {
-	list-style-type: none;
-}
 
-a {
-	color: #2574A9;
-}
 /****** Logo Div Styling ******/
 
 img {
@@ -104,6 +58,7 @@ input, button{
   background-color: #fff;
   color: rgba(19, 87, 193, 0.68);
   font-size: 1.5em;
+  
 
 }
 button:hover{
@@ -114,6 +69,14 @@ button:hover{
 button{
     height: 40px;
 }
+input{
+  max-width:95vw;
+  margin-bottom: 1em;
+}
+input:focus, button:focus{
+  display:none;
+}
+
 
 /*****this is for long urls not to break outside their div and wrap****/
 /**credit to https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/**/
